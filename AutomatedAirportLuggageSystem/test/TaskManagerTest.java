@@ -40,7 +40,6 @@ public class TaskManagerTest {
         assertTrue(storage.getStoredCount() >= 0);
     }
 
-    
     @AfterEach
     void teardown() {
         queue.shutdown();

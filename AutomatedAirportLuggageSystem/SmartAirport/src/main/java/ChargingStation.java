@@ -22,6 +22,7 @@ public class ChargingStation {
         isAvailable = true;
         logService.writeRecord("Charging completed for " + agv.getName());
     }
+    
 
     public boolean isAvailable() { return isAvailable; }
     public String showStatus() { return "Station " + id + " | Available: " + isAvailable; }
